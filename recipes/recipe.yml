@@ -26,6 +26,7 @@ modules:
           - org.videolan.VLC
           - org.qbittorrent.qBittorrent
           - org.onlyoffice.desktopeditors
+          - org.deskflow.deskflow
   - type: gnome-extensions
     install:
       - ddterm
