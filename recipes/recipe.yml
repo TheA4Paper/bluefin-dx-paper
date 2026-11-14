@@ -12,6 +12,7 @@ modules:
         - pipewire-module-roc
         - roc-toolkit
         - gnome-shell-extension-ddterm
+        - brightnessctl
   - type: default-flatpaks
     configurations:
       - notify: true
