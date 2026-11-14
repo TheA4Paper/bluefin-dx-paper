@@ -33,6 +33,3 @@ modules:
     install:
       - 545 # Hide Top Bar
       - 779 # Clipboard Indicator
-  - type: script
-    snippets:
-      - dconf update
