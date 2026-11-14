@@ -11,3 +11,18 @@ modules:
       packages:
         - pipewire-module-roc
         - roc-toolkit
+  - type: default-flatpaks
+    configurations:
+      - notify: true
+        scope: system
+        install:
+          - io.github.getnf.embellish
+          - io.podman_desktop.PodmanDesktop
+          - me.iepure.devtoolbox
+          - com.bitwarden.desktop
+          - com.valvesoftware.Steam
+          - dev.vencord.Vesktop
+          - org.prismlauncher.PrismLauncher
+          - org.videolan.VLC
+          - org.qbittorrent.qBittorrent
+          - org.onlyoffice.desktopeditors
