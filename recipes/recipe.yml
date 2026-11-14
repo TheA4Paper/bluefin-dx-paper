@@ -29,5 +29,5 @@ modules:
   - type: gnome-extensions
     install:
       - ddterm
-      - hide-top-bar
+      - Hide Top Bar
 
