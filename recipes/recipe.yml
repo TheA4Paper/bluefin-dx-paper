@@ -31,5 +31,5 @@ modules:
       - ddterm
       - Hide Top Bar
   - type: script
-      snippets:
-        - "chmod +x /usr/share/gnome-shell/extensions/ddterm@amezin.github.com/bin/com.github.amezin.ddterm"
+    snippets:
+      - "chmod +x /usr/share/gnome-shell/extensions/ddterm@amezin.github.com/bin/com.github.amezin.ddterm"
