@@ -11,6 +11,7 @@ modules:
       packages:
         - pipewire-module-roc
         - roc-toolkit
+        - gnome-shell-extension-ddterm
   - type: default-flatpaks
     configurations:
       - notify: true
@@ -29,9 +30,5 @@ modules:
           - org.deskflow.deskflow
   - type: gnome-extensions
     install:
-      - 3780 # ddterm
       - 545 # Hide Top Bar
       - 779 # Clipboard Indicator
-  - type: script
-    snippets:
-      - "chmod +x /usr/share/gnome-shell/extensions/ddterm@amezin.github.com/bin/com.github.amezin.ddterm"
